@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Header from './header.js'
 
+import './style.scss'
+
 const Layout = (props) => (
   <div className='layout_page'>
     <Header />
-    <React.Fragment>
-      {props.children}
-    </React.Fragment>
+    {props.children}
   </div>
 )
 

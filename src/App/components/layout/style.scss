@@ -6066,7 +6066,7 @@ header {
     overflow: scroll
 }
 
-.form-header,.form-row,.sidebar-language {
+.sbox-form-header,.sbox-form-row,.sidebar-language {
     display: flex
 }
 
@@ -6114,7 +6114,7 @@ header {
     height: 800px
 }
 
-.map-form {
+.sbox-form {
     width: 450px;
     background: #E4E4E4;
     padding: 0 50px 50px;
@@ -6133,7 +6133,7 @@ header {
         height:400px!important
     }
 
-    .map-form {
+    .sbox-form {
         position: relative;
         width: 100%;
         padding: 20px 0
@@ -6146,7 +6146,7 @@ header {
         padding-right: 0
     }
 
-    .form-row {
+    .sbox-form-row {
         max-width: 500px;
         align-items: center;
         margin: 0 auto
@@ -6154,18 +6154,18 @@ header {
 }
 
 @media (max-width: 550px) {
-    .form-row {
+    .sbox-form-row {
         max-width:350px;
         align-items: center;
         margin: 0 auto
     }
 }
 
-.form-row .form-item:nth-child(2) {
+.sbox-form-row .sbox-form-item:nth-child(2) {
     margin-left: 20px
 }
 
-.form-header {
+.sbox-form-header {
     padding-top: 30px;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -6174,35 +6174,35 @@ header {
     border-bottom: 1px solid #cacaca
 }
 
-.form-header .form-header__item {
+.sbox-form-header .sbox-form-header__item {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center
 }
 
-.form-header .form-header__item input {
+.sbox-form-header .sbox-form-header__item input {
     margin-right: 10px
 }
 
-.form-header .form-header__item label {
+.sbox-form-header .sbox-form-header__item label {
     line-height: 1.2;
     margin: 0
 }
 
-.form-item {
+.sbox-form-item {
     flex: 1;
     margin-bottom: 20px
 }
 
-.form-item label {
+.sbox-form-item label {
     font-size: 16px;
     line-height: 19px;
     margin-bottom: 10px;
     font-weight: 500
 }
 
-.form-item input,.form-item select {
+.sbox-form-item input,.sbox-form-item select {
     height: 60px;
     background: #F5F0F6;
     border-radius: 6px;
@@ -6213,14 +6213,14 @@ header {
 }
 
 @media (max-width: 550px) {
-    .form-item input,.form-item select {
+    .sbox-form-item input,.sbox-form-item select {
         height:40px;
         font-size: 14px;
         line-height: 40px
     }
 }
 
-.form-item--return.hidden {
+.sbox-form-item--return.hidden {
     display: none
 }
 

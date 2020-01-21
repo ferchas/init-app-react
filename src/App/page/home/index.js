@@ -3,6 +3,8 @@ import React from 'react'
 import Layout from '../../components/layout'
 import SearchBox from '../../components/search-box'
 
+import './style.scss'
+
 const Home = () => {
   return (
     <Layout>

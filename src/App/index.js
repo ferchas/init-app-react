@@ -5,10 +5,10 @@ import Home from './page/home'
 
 import './style.scss'
 
-const app = () => (
+const App = () => (
   <Router>
     <Route exact path='/' component={Home} />
   </Router>
 )
 
-export default app
+export default App
